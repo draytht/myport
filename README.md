@@ -15,25 +15,7 @@ portfolio/
 ├── script.js           # JavaScript for 3D character and interactions
 └── README.md           # This file
 🚀 Getting Started
-Option 1: Open Locally
-Download all files to a folder
-Double-click index.html to open in your browser
-That's it! No server required.
-Option 2: Deploy Online
-GitHub Pages (Free)
-Create a new repository on GitHub
-Upload all files
-Go to Settings → Pages
-Select main branch and save
-Your site will be live at https://yourusername.github.io/repository-name
-Netlify (Free)
-Go to netlify.com
-Drag and drop your folder
-Your site is live instantly!
-Vercel (Free)
-Go to vercel.com
-Import your GitHub repository
-Deploy with one click
+
 🎨 Customization
 Change Colors
 Edit styles.css and search for these color codes:
