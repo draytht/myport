@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Tran - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">My Portfolio</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>THANH TRAN</h1>
+                <h2>Full-Stack Developer & AI Enthusiast</h2>
+                <p>Master's student in Computer Science specializing in Machine Learning and Web Development. Building the future, one line of code at a time.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="canvas-container">
+                <canvas id="gameCanvas"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">FEATURED PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Digital Wellness Mobile App (UX/UI Case Study)</h3>
+                <p>Designed and prototyped a responsive, mobile-first user interface using Figma, 
+                    focusing on clarity, usability, and engagement Conducted user research and usability testing, iterating on layouts, navigation, and interaction flows Built interactive prototypes to simulate real app-to-web style user flows, supporting future web implementation</p>
+                <p><strong>Tech:</strong> Figma</p>
+            </div>
+            <div class="project-card">
+                <h3>Cloud-Based Web Application (AWS)</h3>
+                <p>Developed a JavaScript-based web applciation with a responsive frontend and cloud backend. Implemeted user-facing features and refined UI components to improve usability across devices.</p>
+                <p><strong>Tech:</strong> Python, Flask, JavaScript, HTML5, CSS3</p>
+            </div>
+            <div class="project-card">
+                <h3>Music Creation AI</h3>
+                <p>Developed a Python-based neural network to generate musical sequences from limited datasets. Applied data preprocessing, model tuning, and statistical evaluation metrics to enhance prediction accuracy.</p>
+                <p><strong>Tech:</strong> Python, Machine Learning, Neural Networks</p>
+            </div>
+            <div class="project-card">
+                <h3>Web App for Dances</h3>
+                <p>Built and maintained a live web application with real-time API integration, demonstrating full-stack development capabilities and modern web technologies.</p>
+                <p><strong>Tech:</strong> PHP, HTML, CSS, REST APIs, Web Development</p>
+            </div>
+            <div class="project-card">
+                <h3>Car-Hub Data Manager</h3>
+                <p>Created a JavaFX desktop application connected to MySQL database for efficient data management. Configured build automation using Gradle to streamline testing and deployment.</p>
+                <p><strong>Tech:</strong> Java, JavaFX, MySQL, Gradle</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">SKILL TREE</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java (Core)</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>HTML5 & CSS</li>
+                    <li>C/C++</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>AI & Machine Learning</h3>
+                <ul>
+                    <li>Neural Networks</li>
+                    <li>Deep Learning</li>
+                    <li>Statistical Evaluation</li>
+                    <li>Model Tuning</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Frameworks</h3>
+                <ul>
+                    <li>Git/GitHub</li>
+                    <li>MySQL & Databases</li>
+                    <li>REST APIs</li>
+                    <li>JavaFX & React</li>
+                    <li>AWS</li>
+                    <li>Flask</li>
+                    <li>Gradle</li>
+                    <li>VS Code & IntelliJ</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Core Competencies</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Documentation</li>
+                    <li>Independent Work</li>
+                    <li>Team Collaboration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">CONNECT</h2>
+        <div class="contact-content">
+            <p>Let's build something amazing together! Reach out for collaborations, opportunities, or just to say hi.</p>
+            <div class="contact-links">
+                <a href="mailto:thanhdat.workdirect@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/thanhdattran09/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/draytht" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Thanh Tran. Powered by Caffeine.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
