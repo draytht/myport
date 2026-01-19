@@ -26,15 +26,6 @@ Edit styles.css and search for these color codes:
 Update Content
 Edit index.html:
 
-Update LinkedIn and GitHub URLs in the contact section
-Modify project descriptions
-Add or remove skills
-Modify 3D Character
-Edit script.js:
-
-Change robot colors (search for hex color codes like 0xff6b35)
-Adjust animation speed
-Modify particle effects
 📦 Dependencies
 Three.js (r128): Loaded via CDN for 3D graphics
 Google Fonts: Orbitron and Rajdhani fonts
