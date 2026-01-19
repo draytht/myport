@@ -56,7 +56,5 @@ Free to use and modify for your own portfolio!
 
 🤝 Contact
 Email: thanhdat.workdirect@gmail.com
-LinkedIn: [Update with your profile]
-GitHub: [Update with your profile]
 Built with 🔥 by Thanh Tran
 
