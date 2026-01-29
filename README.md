@@ -47,5 +47,6 @@ Free to use and modify for your own portfolio!
 
 🤝 Contact
 Email: thanhdat.workdirect@gmail.com
+
 Built with 🔥 by Thanh Tran
 
